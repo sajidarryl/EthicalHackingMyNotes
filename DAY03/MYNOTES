@@ -1,0 +1,15 @@
+ls-lh command
+ls=long list
+pwd shows the current directory path
+touch command is used to create an empty file
+man command is used to open a manual page
+echo is used to print a text (its like print in python )
+chmod 700 hacker.txt
+it will give only the user the permission over the hacker.txt file
+chmod allows to change permission
+
+HOW TO GET FRIENDS MAC ADDRESS
+so first i changed to bridged mode in settings which will let kali Linux in virtualbox act as an actual app in my laptop, i already knew his local ipv4 address so i typed (ping -c 1 <ipv4 address>) and then i typed (arp -a). This gave me his MAC address
+
+HOW TO GET THE PRIVATE IP ADDRESSESV FROM A SHARED WIFI
+Ok so when we are connected to a wifi the internet sees all the ip addresses as one that is because of NAT( network address translation)but since i am connected to the wifi and i am already in it i can scan and get private ips. NAT on;u applies from between the internet and the wifi not inside the wifi. If NAT were to work inside the wifi too then communication between devices in the wifi wont work.
