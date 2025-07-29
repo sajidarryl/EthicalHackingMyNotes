@@ -1,0 +1,153 @@
+We discussed about nmap command in kali linux. We looked at few websites such as have i be pwned,wayback machine and webpass.we also looked at bug bounding and payload as well.
+
+We looked at few concepts:
+
+ 
+
+1]NETWORK
+
+A computer network is a group of computers and other devices (like printers, routers, servers) connected together to share data and resources. These devices can be connected:
+
+Wired (using cables)
+
+Wireless (using Wi-Fi, Bluetooth, etc.)
+
+ 
+
+2]IP ADDRESS
+
+An IP address (Internet Protocol address) is a unique number assigned to each device connected to a computer network, such as the internet. It works like a home address for your device, so it can send and receive data.
+
+ 
+
+ 
+
+3]NAT-NETWORK ADDRESS TRANSLATOR
+
+NAT is a method used by routers to allow multiple devices on a private network (like your home Wi-Fi) to share a single public IP address when accessing the internet.
+
+EXAMPLE:Imagine a house with 3 people (devices), but only 1 phone number (public IP address).
+
+When someone calls out (browses the internet), they all use the same phone number (public IP).
+
+The phone (router) keeps track of who made the call, so when someone calls back (data returns), the router sends it to the right person (device).
+
+ 
+
+ 
+
+4]TCP vs UDP
+
+ 
+
+TCP-TRANSMISSION CONTROL PROTOCOL
+
+Connection-oriented (requires handshake before communication).
+
+Reliable – ensures all data is received correctly.
+
+Guarantees data is delivered in the correct order.
+
+Performs error checking and retransmits lost packets.
+
+Slower due to overhead (more processing and control).
+
+Used in applications where accuracy is critical.
+
+Examples:
+
+Web browsing (HTTP/HTTPS)
+
+Email (SMTP, IMAP, POP3)
+
+File transfers (FTP)
+
+ 
+
+UDP-USER DATAGRAM PROTOCOL
+
+Connectionless – no handshake or setup before sending data.
+
+Unreliable – no guarantee that data will arrive.
+
+Does not ensure correct order of data.
+
+Minimal error checking – no retransmission of lost packets.
+
+Faster and more efficient (less overhead).
+
+Used in real-time applications where speed is more important than accuracy.
+
+Examples:
+
+Online gaming
+
+Video streaming (YouTube, Netflix)
+
+Voice calls (Skype, Zoom, VoIP)
+
+ 
+
+ 
+
+5]MAC ID -MEDIA ACCESS CONTROL ADDRESS
+
+A MAC ID (Media Access Control address) is a unique identifier assigned to the network interface of a device, such as a computer, smartphone, or router. It is a hardware-based address that helps identify devices within a local network, like your home Wi-Fi. A MAC address is usually written in a 12-character hexadecimal format, such as 00:1A:2B:3C:4D:5E, and is assigned by the device manufacturer. Unlike IP addresses, which can change, a MAC ID is permanent and used mainly for communication within the local network. Routers use MAC addresses to assign IP addresses and control which devices can access the network. It plays a key role in ensuring that data is delivered to the correct device in a LAN (Local Area Network).
+
+ 
+
+ 
+
+6]IP4 and IP6
+
+ 
+
+IPv4
+
+Most commonly used IP version.
+
+Uses 32-bit addresses.
+
+Format: xxx.xxx.xxx.xxx (e.g., 192.168.1.1)
+
+Total addresses: About 4.3 billion.
+
+Problem: We are running out of IPv4 addresses.
+
+Supports broadcast communication.
+
+Easier to read and manage, but limited in address space.
+
+ 
+
+IPv6
+
+Newer version designed to replace IPv4.
+
+Uses 128-bit addresses.
+
+Format: Eight groups of four hex digits (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334)
+
+Total addresses: 340 undecillion (a huge number).
+
+No broadcast – uses multicast and anycast.
+
+More secure, efficient, and supports auto-configuration.
+
+ 
+
+ 
+
+7]SUBNET
+
+A subnet (short for subnetwork) is a smaller, logical section of a larger network. It divides one big network into smaller, manageable parts to improve performance, organization, and security.
+
+In simple terms A subnet allows a network to be split into groups of devices that can communicate more efficiently within their group, while still being part of the larger network
+
+ 
+
+ 
+
+8]PORTFORWARDING
+
+Port forwarding is a networking technique used to allow external devices on the internet to access services on a private local network (like your home Wi-Fi)
